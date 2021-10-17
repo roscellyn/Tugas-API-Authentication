@@ -42,16 +42,9 @@ def get_password_hash(password):
 fake_users_db = {
     "asdf": {
         "username": "asdf",
-        "hashed_password": get_password_hash("asdf"),
+        "hashed_password": "$2b$12$ZJ1vwWXC28QP26XfR2PC9O.rElXP0G1Jbtq4s0kwLL7OwE/4JO7b6",
     },
 }
-
-# def fake_hash_password(password: str):
-#     return "fakehashed" + password
-
-# def fake_decode_token(token):
-#     return User(
-#         username=token + "fakedecoded")
 
 def get_user(db, username: str):
     if username in db:
