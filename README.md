@@ -12,6 +12,6 @@ https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/
 
 ## Author
 
-Jacelyn Felisha
-18219097
+Jacelyn Felisha <br />
+18219097 <br />
 Sistem dan Teknologi Informasi ITB 2019
